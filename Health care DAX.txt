@@ -1,0 +1,7 @@
+Total Patients = COUNTROWS(Patients)
+Total Doctors = COUNTROWS(Doctors)
+Total Appointments = COUNTROWS(Appointments)
+Total Revenue = SUM(Billing[Amount])
+Average Bill = AVERAGE(Billing[Amount])
+Patients per Doctor = DIVIDE([Total Patients],[Total Doctors],0)
+Average Doctor Experience = AVERAGE(Doctors[Experience])
